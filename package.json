@@ -1,0 +1,25 @@
+{
+  "name": "sync-promise-lite",
+  "version": "0.0.0",
+  "description": "A synchronous Promise polyfill.",
+  "main": "promise.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Gerald <i@gerald.top>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gera2ld/sync-promise-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gera2ld/sync-promise-lite/issues"
+  },
+  "homepage": "https://github.com/gera2ld/sync-promise-lite#readme"
+}
