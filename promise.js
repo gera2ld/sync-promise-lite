@@ -10,7 +10,7 @@
   else if (typeof module === 'object' && module.exports)
     module.exports = factory();
   else
-    root.SyncPromise = factory();
+    root.Promise = root.Promise || factory();
 }(typeof window !== 'undefined' ? window : this, function () {
 
   var PENDING = 'pending';

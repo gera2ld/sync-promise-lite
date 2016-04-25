@@ -1,5 +1,8 @@
 SyncPromise
 ===
+![NPM](https://img.shields.io/npm/v/sync-promise-lite.svg)
+![Licence](https://img.shields.io/npm/l/sync-promise-lite.svg)
+![Downloads](https://img.shields.io/npm/dt/sync-promise-lite.svg)
 
 A synchronous promise polyfill based on
 [promise-lite](https://github.com/gera2ld/promise-lite).
