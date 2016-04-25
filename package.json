@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/gera2ld/sync-promise-lite/issues"
   },
-  "homepage": "https://github.com/gera2ld/sync-promise-lite#readme"
+  "homepage": "https://github.com/gera2ld/sync-promise-lite#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
