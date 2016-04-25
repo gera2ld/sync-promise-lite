@@ -1,3 +1,9 @@
+/**
+ * @desc A synchronous Promise implementation.
+ * @author Gerald <i@gerald.top>
+ *
+ * https://github.com/gera2ld/sync-promise-lite
+ */
 !function (root, factory) {
   if (typeof define === 'function' && define.amd)
     define([], factory);
