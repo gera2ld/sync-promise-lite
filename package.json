@@ -1,6 +1,6 @@
 {
   "name": "sync-promise-lite",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A synchronous Promise polyfill.",
   "main": "promise.js",
   "directories": {
