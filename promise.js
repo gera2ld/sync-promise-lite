@@ -68,7 +68,7 @@
       status = REJECTED;
       value = reason;
       setTimeout(function () {
-        uncaught && console.error('Uncaught (in promise)', reason);
+        uncaught && Promise.onUncaught(reason);
       });
       then();
     };
@@ -91,6 +91,10 @@
     this.then = thenFactory(isStatus, getValue, addHandler);
     syncCall(resolver, [resolve, reject]);
   }
+
+  Promise.onUncaught = function (reason) {
+    console.error('Uncaught (in promise)', reason);
+  };
 
   Promise.prototype.catch = function (errHandler) {
     return this.then(null, errHandler);
